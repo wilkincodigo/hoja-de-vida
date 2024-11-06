@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header .name h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+.header .name p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+}
+
+
+.header .name img {
+    width: 25%;
+    height: 25;
+    justify-content: right;
+    display: flex;
+    bordwer border-radius: 25px;
+}
+
+.header .contact ul {
+    list-style: none;
+}
+
+.header .contact li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+.job, .degree, .project {
+    margin-bottom: 20px;
+}
+
+.job h3, .degree h3, .project h3 {
+    font-size: 1.4em;
+    color: #34495e;
+}
+
+ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+
+.skills {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.skills li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+
+.footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-top: 40px;
+}
+
+
+
+
+.progress-container {
+    width: 80%; 
+    background-color: #e0e0e0; 
+    border-radius: 25px; 
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.progress-bar {
+    height: 30px; 
+    background-color: #4caf50;
+    color: white;
+    text-align: center; 
+    line-height: 30px; 
+    border-radius: 15px; 
+    font-weight: bold;
+}
+.c {
+    
+    width: 80%; 
+    background-color: #e0e0e0; 
+    border-radius: 25px; 
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.progress-c {
+    height: 30px; 
+    background-color: #4caf50;
+    color: white;
+    text-align: center; 
+    line-height: 30px; 
+    border-radius: 15px; 
+    font-weight: bold;
+}
+.html {
+    width: 80%; 
+    background-color: #e0e0e0; 
+    border-radius: 25px; 
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.html-c {
+    height: 30px; 
+    background-color: #4caf50;
+    color: white;
+    text-align: center; 
+    line-height: 30px; 
+    border-radius: 15px; 
+    font-weight: bold;
+}
